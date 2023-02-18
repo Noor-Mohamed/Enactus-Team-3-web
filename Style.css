@@ -127,7 +127,7 @@ ul li .a2:hover{
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
-    width: 45%;
+    width: 40%;
     height: 24px;
     box-shadow: 0px 3px #00000026;
     transition: 0.3s;
@@ -137,7 +137,7 @@ ul li .a2:hover{
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
-    width: 10%;
+    width: 60px;
     height: 24px;
     box-shadow: 0px 3px #00000026;
     transition: 0.3s;    
