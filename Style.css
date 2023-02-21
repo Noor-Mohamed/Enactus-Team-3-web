@@ -16,6 +16,9 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+section{
+    display: block;
+}
 /*------------------------------------Noor-style--------------------------------------*/
 header {
     background-color: #040405;
@@ -240,13 +243,84 @@ ul li .a2:hover{
 
 
 /*------------------------------------Mohamed-style--------------------------------------*/
+/*customize (about us) */
+.text{
+    position: relative;
+    font-weight: 50px;
+    font-size:70px;
+    text-align: center;
+    top: 160px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/*customize paragraph*/
+.paragraph{
+    position: relative;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    line-height: 60px;
+    bottom: 600px;
+    left: 50px;
+}
+
+/*customize circlehome4*/
+.circlehome4{
+    background-color: #FFA500;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    right: 150px;
+    z-index: -1;
+    /*Animation of circlehome4 */
+    animation-name: circlehome4_animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circlehome4_animation{
+    0% {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(-1em) rotate(-360deg);
+    }
+}
 
 
+/*customize circlehome3*/
+.circlehome3{
+    background-color:#FFA500;
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 1100px;
+    /*Circlehome3 animation*/
+    animation-name: circlehome3_animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circlehome3_animation{
+    0% {
+        transform: rotate(360deg) translate(-1em) rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+}
 
 
-
-
-
-
+/*customize Enactus Image*/
+.img_mohamed{
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+}
 
 /*------------------------------------Abrar-style--------------------------------------*/
