@@ -313,6 +313,7 @@ ul li .a2:hover{
     display: flex;
     flex-direction: column;
     margin-left: 3.5%;
+    width: 75%;
 }
 
 /*customize (about us) */
@@ -346,8 +347,6 @@ ul li .a2:hover{
     height: 200px;
     display: flex;
     margin-top: 100px;
-    margin-left: 1%;
-    margin-right: 2%;
 }
 
 
