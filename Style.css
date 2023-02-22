@@ -14,6 +14,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -232,22 +233,67 @@ ul li .a2:hover{
     }
 }
 
-/*------------------------------------Mina-style--------------------------------------*/
+/*------------------------------------Take-Action-style--------------------------------------*/
+.take_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    margin-top: 150px;
+}
+
+.school{
+    height: 200px;
+}
+.rocket{
+    height: 200px;
+}
+.hands{
+    height: 200px;
+}
+
+.take_action_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.content{
+    text-align: center;
+}
+.content p{
+    margin-bottom: 20px;
+    padding: 1%;
+}
 
 
+.link_action:visited,
+.link_action:link{
+    background-color: #ffffff;
+    border:#FEBF0F solid 1px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    transition: 0.3s;
+}
 
-
-
-
+.link_action:hover{
+    background-color: #FEBF0F;
+    color: #fff;
+}
 
 
 
 /*------------------------------------Mohamed-style--------------------------------------*/
+
 /* section mohamed */
 
 .Mohamed_section{
     display: flex;
-    padding-top: 470px;
+    padding-top: 200px;
 }
 
 /* text */
@@ -263,7 +309,7 @@ ul li .a2:hover{
     align-items: center;
     justify-content: center;
     font-weight: 50px; 
-    font-size:70px;
+    font-size: 300%;
     font-family: "Times New Roman", Times, serif;
     color: #000000;
 }
@@ -276,7 +322,7 @@ ul li .a2:hover{
     justify-content: center;
     margin-top: 60px;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 190%;
     font-family: cursive;
     line-height: 60px;
     color: #000000;
@@ -300,7 +346,7 @@ ul li .a2:hover{
     height: 600px;
     border-radius: 50%;
     position: absolute;
-    top: 900px;
+    top: 1200px;
     right: 75%;
     z-index: -1;
     /*Animation of circlehome4 */
@@ -326,7 +372,7 @@ ul li .a2:hover{
     height: 430px;
     border-radius: 50%;
     position: absolute;
-    top: 750px;
+    top: 1100px;
     left: 75%;
     z-index: -1;
     /*Circlehome3 animation*/
@@ -343,4 +389,3 @@ ul li .a2:hover{
         transform: rotate(0deg) translate(-1em) rotate(0deg);
     }
 }
-/*------------------------------------Abrar-style--------------------------------------*/
