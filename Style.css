@@ -389,3 +389,53 @@ ul li .a2:hover{
         transform: rotate(0deg) translate(-1em) rotate(0deg);
     }
 }
+
+/*------------------------------------Our-Impact--------------------------------------*/
+.ourImpact h1{
+    color: #000000;
+    font-family: "Knockout 50", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.ourImpact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+
+.text_Impact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.IT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+.text_Impact p{
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+}
+.IT div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.IT p{
+    text-align: center;
+}
+.M{
+    padding-bottom: 20px;
+}
