@@ -19,12 +19,17 @@ html {
 
 section{
     display: block;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
 }
 /*------------------------------------Noor-style--------------------------------------*/
 header {
     background-color: #040405;
     height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
 }
 
 .navlogo {
@@ -109,7 +114,7 @@ ul li .a2:hover{
 }
 
 .hometext{
-    margin-top: 80px;
+    margin-top: 400px;
     font-size: 150%;
     display: flex;
     flex-direction: column;
@@ -176,8 +181,7 @@ ul li .a2:hover{
 }
 
 .homelogo{
-    padding-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 400px;
     margin-right: 10%;
     display: flex;
     align-items: center;
@@ -196,7 +200,7 @@ ul li .a2:hover{
     animation-name: circlehome1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
-    top: 80px;
+    top: 260px;
     right: 1%;
     border-radius: 50%;
     z-index: -1;  
@@ -219,8 +223,8 @@ ul li .a2:hover{
     animation-name: circlehome2;
     animation-duration: 6s;
     animation-iteration-count: infinite;
-    top: 230px;
-    left: 2%;
+    top: 400px;
+    left: 3.5%;
     border-radius: 10px 40px 10px 40px;
     z-index: -1;  
 }
@@ -234,6 +238,18 @@ ul li .a2:hover{
     }
 }
 
+/*------------------------------------Mina-style--------------------------------------*/
+.mina{
+    margin-bottom: 500px;
+}
+
+.test,.new { display: flex;
+    justify-content: space-around;
+    }
+ 
+.photo {width: 1100;
+    margin-left: 200px;
+}
 
 /*------------------------------------Take-Action-style--------------------------------------*/
 .take_action{
@@ -270,18 +286,6 @@ ul li .a2:hover{
     padding: 1%;
 }
 
-
-/*------------------------------------Mina-style--------------------------------------*/
-.test,.new { display: flex;
-    justify-content: space-around;
-    }
- 
-.photo {width: 1100;
-    margin-left: 200px;
-}
-/*----------------------------------------------------------------------------------------------------*/
-
-
 .link_action:visited,
 .link_action:link{
     background-color: #ffffff;
@@ -306,7 +310,7 @@ ul li .a2:hover{
 
 .Mohamed_section{
     display: flex;
-    padding-top: 200px;
+    margin-top: 500px;
 }
 
 /* text */
@@ -323,8 +327,8 @@ ul li .a2:hover{
     align-items: center;
     justify-content: center;
     font-weight: 50px; 
-    font-size: 300%;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 250%;
+    /* font-family: "Times New Roman", Times, serif; */
     color: #000000;
 }
 
@@ -337,7 +341,7 @@ ul li .a2:hover{
     margin-top: 60px;
     font-weight: 400;
     font-size: 190%;
-    font-family: cursive;
+    /* font-family: cursive; */
     line-height: 60px;
     color: #000000;
 }
@@ -358,7 +362,7 @@ ul li .a2:hover{
     height: 600px;
     border-radius: 50%;
     position: absolute;
-    top: 1650px;
+    top: 2700px;
     right: 70%;
     z-index: -1;
     /*Animation of circlehome4 */
@@ -384,7 +388,7 @@ ul li .a2:hover{
     height: 430px;
     border-radius: 50%;
     position: absolute;
-    top: 1500px;
+    top: 2550px;
     left: 75%;
     z-index: -1;
     /*Circlehome3 animation*/
@@ -416,8 +420,7 @@ ul li .a2:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 400px;
-    margin-bottom: 100px;
+    margin-top: 500px;
 }
 
 .text_Impact{
