@@ -240,7 +240,7 @@ ul li .a2:hover{
 
 /*------------------------------------Mina-style--------------------------------------*/
 .mina{
-    margin-bottom: 500px;
+    margin-bottom: 450px;
 }
 
 .test,.new { display: flex;
@@ -258,7 +258,6 @@ ul li .a2:hover{
     align-items: center;
     flex-direction: column;
     color: #000000;
-    margin-top: 150px;
 }
 
 .school{
@@ -310,7 +309,7 @@ ul li .a2:hover{
 
 .Mohamed_section{
     display: flex;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 /* text */
@@ -362,7 +361,7 @@ ul li .a2:hover{
     height: 600px;
     border-radius: 50%;
     position: absolute;
-    top: 2700px;
+    top: 2600px;
     right: 70%;
     z-index: -1;
     /*Animation of circlehome4 */
@@ -388,7 +387,7 @@ ul li .a2:hover{
     height: 430px;
     border-radius: 50%;
     position: absolute;
-    top: 2550px;
+    top: 2450px;
     left: 75%;
     z-index: -1;
     /*Circlehome3 animation*/
